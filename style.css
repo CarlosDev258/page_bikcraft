@@ -88,6 +88,7 @@ p {
     text-align: end;
     align-self: center;
     justify-self: center;
+    margin-right: 20px;
 }
 
 .vantagens {
@@ -110,10 +111,12 @@ p {
 
 .item p {
     margin: 0;
+    grid-column: 2;
 }
 
 .item span {
     font-weight: bold;
+    grid-column: 2;
 }
 
 footer {
